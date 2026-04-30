@@ -1,0 +1,25 @@
+ĐỀ THỰC HÀNH JAVA (Nâng cấp nhẹ)
+
+Câu 1. (Khởi tạo và tạo dữ liệu)
+Sinh viên tạo 1 Project có tên là họ tên sinh viên (không dấu). Dùng Notepad để tạo file "nhansu_bank.txt" lưu thông tin của các Cán bộ và Quản lý trong ngân hàng. Các thông tin cách nhau bởi dấu phẩy (",").
+- Thông tin mỗi Cán bộ bao gồm: Mã nhân viên, họ và tên,
+ phòng ban, lương cơ bản.
+- Thông tin mỗi Quản lý bao gồm: Mã nhân viên, họ và tên,
+ phòng ban, lương cơ bản, phụ cấp trách nhiệm, thưởng KPI.
+
+Câu 2. (Đọc, Validate và Ghi file)
+Đọc file "nhansu_bank.txt", hiển thị nội dung file ra màn hình. 
+Hiển thị các dòng hợp lệ ra màn hình và lưu vào file "du_lieu_chuan.txt".
+ Một dòng được coi là hợp lệ nếu thỏa mãn TẤT CẢ các điều kiện sau:
+- Đủ 4 thông tin (đối với Cán bộ) hoặc đủ 6 thông tin (đối với Quản lý).
+- Phòng ban chỉ được phép là 1 trong 3 loại: "GiaoDich", "TinDung", hoặc "NhanSu".
+- (Điểm khó thêm): Lương cơ bản phải là một số nguyên dương (Sinh viên cần 
+xử lý ngoại lệ để loại bỏ những dòng có chữ cái lọt vào cột lương hoặc lương < 0).
+
+Câu 3. (OOP, ArrayList và Xử lý logic)
+Thiết kế các lớp và kế thừa phù hợp (QuanLy kế thừa CanBo). 
+- Đọc file "du_lieu_chuan.txt" và nạp toàn bộ nhân sự vào một ArrayList.
+- Viết phương thức tính Tổng thu nhập (Cán bộ = lương cơ bản; Quản lý =
+ lương cơ bản + phụ cấp + thưởng KPI).
+- (Điểm khó thêm): Hãy sắp xếp ArrayList giảm dần theo Tổng thu nhập.
+ Sau đó, in ra màn hình danh sách Cán bộ và danh sách Quản lý thành 2 nhóm riêng biệt.
