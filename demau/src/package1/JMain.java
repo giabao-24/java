@@ -71,6 +71,9 @@ static void cau3() throws IOException {
   }
   br.close();
 }
+static void cau4() {
+  
+}
 static boolean checkLuongCoBan(String luongCoBan) {
   for(int i = 0;i < luongCoBan.length();i++) {
     if(luongCoBan.charAt(i) < '0' || luongCoBan.charAt(i) > '9') {
